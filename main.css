@@ -1,0 +1,38 @@
+#canvas-container {
+    display: grid;
+    grid-template-columns: 11;
+    grid-template-rows: 11;
+}
+
+#canvas-container canvas {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 2;
+    grid-row-end: 10;
+}
+
+h1 {
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 2;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+#clear-container {
+    width: 4%;
+    margin: auto;
+}
+
+html {
+    background-color: gray;
+}
+
+#clear {
+    border: 1px solid white;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    display: inline-block;
+}
